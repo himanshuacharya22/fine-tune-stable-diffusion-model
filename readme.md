@@ -27,7 +27,7 @@ Clone the diffuesers repo from hugging face
 ```sh
 git clone https://github.com/huggingface/diffusers
 ```
-Ensure you have the required Python libraries installed:
+- Ensure you have the required Python libraries installed:
 
 ```sh
 pip install -r requirements.txt
@@ -35,8 +35,8 @@ pip install -r requirements.txt
 
 ### 2. Preprocess Images
 
-Resize and prepare images for training<br>
-Copy your metadata.jsonl file in this folder 
+- Resize and prepare images for training
+- Copy your metadata.jsonl file in this folder 
 
 ```sh
 python preprocess_images.py
@@ -44,7 +44,7 @@ python preprocess_images.py
 
 ### 3. Train the Model
 
-Start the fine-tuning process:
+- Start the fine-tuning process:
 
 ```sh
 python run_training.py
@@ -52,7 +52,7 @@ python run_training.py
 
 ### 4. Generate Images
 
-Use the fine-tuned model to generate images:
+- Use the fine-tuned model to generate images:
 
 ```sh
 python main.py
@@ -60,7 +60,7 @@ python main.py
 
 ## Dataset Format
 
-The dataset consists of images of Lord Ganesha along with a metadata file (`metadata.jsonl`) containing textual descriptions for each image. Example format:
+- The dataset consists of images of Lord Ganesha along with a metadata file (`metadata.jsonl`) containing textual descriptions for each image. Example format:
 
 ```json
 {
