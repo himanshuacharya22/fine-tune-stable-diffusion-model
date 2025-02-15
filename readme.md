@@ -23,6 +23,10 @@ This repository contains scripts for fine-tuning a Stable Diffusion model on a c
 
 ### 1. Install Dependencies
 
+Clone the diffuesers repo from hugging face 
+```sh
+git clone https://github.com/huggingface/diffusers
+```
 Ensure you have the required Python libraries installed:
 
 ```sh
