@@ -69,7 +69,6 @@ The dataset consists of images of Lord Ganesha along with a metadata file (`meta
 
 - Ensure you have a GPU with sufficient VRAM for training.
 - Modify `run_training.py` parameters to adjust batch size, learning rate, and training steps.
-- Logs for training are saved in `training_log.txt`.
 ---
 
 ### Author
