@@ -1,0 +1,8 @@
+torch
+diffusers
+transformers
+accelerate
+datasets
+torchvision
+bitsandbytes
+git+https://github.com/huggingface/diffusers
